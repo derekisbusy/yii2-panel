@@ -1,12 +1,12 @@
 <?php
-namespace common\widgets\panel;
+namespace derekisbusy\panel;
 
 use yii\web\AssetBundle;
 
 
 class PanelWidgetAsset extends AssetBundle
 {
-    public $sourcePath = '@common/widgets/panel/assets';
+    public $sourcePath = '@vendor/derekisbusy/yii2-panel/assets';
 //    public $jsOptions = ['position' => \yii\web\View::POS_HEAD];
     public $css = [
 //        'panel-widget.css',

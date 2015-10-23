@@ -1,9 +1,10 @@
 <?php
-namespace common\widgets\panel;
+namespace derekisbusy\panel;
 
 use yii\base\Widget;
 use yii\helpers\Html;
-use yii\web\JsExpression;
+use yii\helpers\Json;
+use yii\web\View;
 
 class PanelWidget extends Widget{
 	public $pluginOptions=[];
@@ -27,8 +28,8 @@ class PanelWidget extends Widget{
 		parent::init();
         if($this->widget) {
             PanelWidgetAsset::register($this->view);
-            $this->view->registerJs("jQuery('#".$this->getId()."').bootstrap_panel(".\yii\helpers\Json::encode(array_merge($this->defaultPluginOptions,$this->pluginOptions), JSON_UNESCAPED_SLASHES).");",
-                    \yii\web\View::POS_READY);
+            $this->view->registerJs("jQuery('#".$this->getId()."').bootstrap_panel(".Json::encode(array_merge($this->defaultPluginOptions,$this->pluginOptions), JSON_UNESCAPED_SLASHES).");",
+                    View::POS_READY);
         }
         $style=$this->collapse ? 'display:none' : '';
         echo Html::beginTag('div', ['class'=>'panel panel-'.$this->type.' panel-widget','id'=>$this->getId()]);
