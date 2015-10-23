@@ -1,0 +1,22 @@
+{
+    "name": "derekisbusy/yii2-panel",
+    "description": "Yii2 Bootstrap Panel",
+    "type": "yii2-extension",
+    "license": "GNU GPLv2",
+    "authors": [
+        {
+            "name": "Derek G",
+            "email": "derekisbusy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "derekisbusy\\panel\\": ""
+        }
+    }
+}
