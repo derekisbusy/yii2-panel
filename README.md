@@ -1,6 +1,25 @@
 # yii2-panel
 Collapsable Bootstrap panel widget.
 
+
+## Installation
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+$ composer require derekisbusy/yii2-panel "dev-master"
+```
+
+or add
+
+```
+"derekisbusy/yii2-panel": "dev-master"
+```
+
+to the ```require``` section of your `composer.json` file then run composer update.
+
 ##Options
  - **title**    title displayed in the head section of the panel
  
