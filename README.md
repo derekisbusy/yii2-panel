@@ -47,7 +47,7 @@ to the ```require``` section of your `composer.json` file then run composer upda
 
 ###Basic Example
 ```php
-use derekisbusy\yii2-panel\PanelWidget;
+use derekisbusy\panel\PanelWidget;
 echo PanelWidget::widget([
     'collapse'=>true,
     'title'=>'My Panel',
@@ -60,7 +60,7 @@ echo PanelWidget::widget([
 ###Style Only
 If you only need to create HTML for bootstrap panel and don't need any js functionality set widget to false.
 ```php
-use derekisbusy\yii2-panel\PanelWidget;
+use derekisbusy\panel\PanelWidget;
 
 echo PanelWidget::begin([
     'title'=>'My Panel',
@@ -76,7 +76,7 @@ PanelWidget::end();
 ###Example with Form Widget
 
 ```php
-use derekisbusy\yii2-panel\PanelWidget;
+use derekisbusy\panel\PanelWidget;
 
 echo PanelWidget::begin([
     'title'=>$title,
