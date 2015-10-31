@@ -1,6 +1,9 @@
 # yii2-panel
-Collapsable Bootstrap panel widget.
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/derekisbusy/yii2-panel/blob/master/LICENSE.md)
+[![Packagist](https://img.shields.io/packagist/dt/derekisbusy/yii2-panel.svg)](https://packagist.org/packages/derekisbusy/yii2-panel)
 
+
+Collapsable Bootstrap panel widget.
 
 ## Installation
 
