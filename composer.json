@@ -3,7 +3,7 @@
     "description": "Yii2 Bootstrap Panel",
     "keywords": ["bootstrap", "panel", "collapsable", "extended", "jquery","yii2"],
     "type": "yii2-extension",
-    "license": "GNU GPLv2",
+    "license": "MIT",
     "authors": [
         {
             "name": "Derek G",
