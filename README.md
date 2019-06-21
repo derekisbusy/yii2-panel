@@ -23,7 +23,7 @@ or add
 
 to the ```require``` section of your `composer.json` file then run composer update.
 
-##Options
+## Options
  - **title**    title displayed in the head section of the panel
  
  - **content**  content displayed in the body section of the panel. Only use if using widget() method.
@@ -43,9 +43,9 @@ to the ```require``` section of your `composer.json` file then run composer upda
 
 - **widget** whether or not to include javascript. Can be used to disable javascript if using as style element only.
 
-##Examples
+## Examples
 
-###Basic Example
+### Basic Example
 ```php
 use derekisbusy\panel\PanelWidget;
 echo PanelWidget::widget([
@@ -57,7 +57,7 @@ echo PanelWidget::widget([
 ]);
 ```
 
-###Style Only
+### Style Only
 If you only need to create HTML for bootstrap panel and don't need any js functionality set widget to false.
 ```php
 use derekisbusy\panel\PanelWidget;
@@ -73,7 +73,7 @@ echo PanelWidget::begin([
 PanelWidget::end();
 ```
 
-###Example with Form Widget
+### Example with Form Widget
 
 ```php
 use derekisbusy\panel\PanelWidget;
